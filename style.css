@@ -1,0 +1,37 @@
+/* General CSS */
+h1{
+    text-align: center;
+}
+body{
+    display: felx;
+    flex-direction: column;
+}
+
+/* Container-CSS so that every DIV is boxed and bordered */
+.container{
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.container:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.container:hover h1{
+    text-decoration: underline;
+}
+
+/* First Container */
+#firstContainer{
+    flex-wrap: wrap;
+    align-content: center;
+}
+#firstContainer p{
+    color: red;
+}
+
+/* Second Container */
+#secondContainer{
+    background-image: url("/Assets/Bilder/Ghibli-WallpaperByStableDiffusion.png");
+}
