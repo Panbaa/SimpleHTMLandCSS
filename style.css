@@ -92,7 +92,7 @@ body{
     color: #0088a9;
 }
 
-#contact_button{
+#login_button{
     padding: 9px 25px;
     background-color: rgb(0, 136, 169);
     border: none;
@@ -101,6 +101,6 @@ body{
     transition: 0.3s;
 }
 
-#contact_button:hover{
+#login_button:hover{
     background-color: rgb(0, 113, 141);
 }
