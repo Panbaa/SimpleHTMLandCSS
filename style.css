@@ -6,6 +6,9 @@ body{
     display: felx;
     flex-direction: column;
 }
+.logo_img{
+    cursor: pointer;
+}
 
 /* Container-CSS so that every DIV is boxed and bordered */
 .container{
@@ -32,6 +35,72 @@ body{
 }
 
 /* Second Container */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 #secondContainer{
-    background-image: url("/Assets/Bilder/Ghibli-WallpaperByStableDiffusion.png");
+    /* background-image: url("/Assets/Bilder/Ghibli-WallpaperByStableDiffusion.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat; */
+    background-color: rgb(58, 58, 58);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#secondContainer li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+#secondContainer header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+#logo_container_two{
+    height: 50px;
+    width: auto;
+    margin-right: auto;
+    filter: invert(100%);
+    transition: 0.3s;
+}
+
+#logo_container_two:hover{
+    opacity: 0.5;
+}
+
+#nav_container_two{
+    list-style: none;
+}
+
+#nav_container_two li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin-right: 5px;
+}
+
+#nav_container_two li a{
+    transition: 0.3s;
+}
+
+#nav_container_two li a:hover{
+    color: #0088a9;
+}
+
+#contact_button{
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact_button:hover{
+    background-color: rgb(0, 113, 141);
 }
